@@ -6,7 +6,7 @@
 
 body {
   font-family: "League Spartan", sans-serif;
-background: linear-gradient(135deg, #8bd1cf 0%, #99c6e9 100%);
+  background-color: wheat;
   min-height: 100vh;
   line-height: 1.6;
   color: #333;
@@ -100,7 +100,7 @@ h1,
 h2,
 h3,
 h4 {
-  color:rgba(139, 19, 19, 0.95);
+  color: rgba(139, 19, 19, 0.95);
   margin-bottom: 30px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
   font-weight: bold;
@@ -178,7 +178,7 @@ p {
 
 .gallery-image {
   width: 100%;
-   max-width: 600px;
+  max-width: 600px;
   height: auto;
   object-fit: cover;
   border-radius: 12px;
@@ -229,7 +229,7 @@ p {
   padding: 15px 30px;
   border: none;
   border-radius: 25px;
- background: linear-gradient(45deg,rgba(139, 19, 19, 0.95));
+  background: linear-gradient(45deg, rgba(139, 19, 19, 0.95));
   color: white;
   font-size: 16px;
   font-weight: bold;
@@ -239,7 +239,7 @@ p {
 }
 
 .nav-btn:hover {
- background: linear-gradient(45deg,rgba(139, 19, 19, 0.95));
+  background: linear-gradient(45deg, rgba(139, 19, 19, 0.95));
   transform: translateY(-3px);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
 }
@@ -250,7 +250,7 @@ p {
   transform: none;
 }
 footer {
-  background: linear-gradient(45deg,rgba(139, 19, 19, 0.95));
+  background: linear-gradient(45deg, rgba(139, 19, 19, 0.95));
   color: white;
   text-align: auto;
   padding: 20px;
